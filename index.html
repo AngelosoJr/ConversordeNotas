@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConversordeNotas</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background: #8C5D42; width: 100vh;">
+            <img src="conversor.jpg" style="height: 150px;">
+        </div>
+        <div class="content">
+            <div class="notainserida">
+                <p>Digite sua nota abaixo:</p>
+                <input type="number" id="nota-inserida" min="0" max="100">
+                <button onclick="converternota()">Converter Nota</button>
+            </div>
+            <div class="notaconvertida">
+                <p>Sua nota convertida é:</p>
+                <p id="valorntconvertida"></p>
+            </div>     
+
+        </div>
+        <div class="footer">
+            <p>By: Francisco Coporation</p>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
